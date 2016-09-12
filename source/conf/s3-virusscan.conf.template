@@ -1,0 +1,4 @@
+delete: {{ grains['deleteparams'] }}
+region: {{ grains['n_region'] }}
+queue: {{ grains['n_queue'] }}
+topic: {{ grains['n_topic'] }}
